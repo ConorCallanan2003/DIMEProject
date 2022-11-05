@@ -47,7 +47,6 @@ offer1 = new data.Offer {
 			]
 		}
 	]
-	report = new data.Report {}
 	decision = new data.Decision {
 		state = "approved"
 	}
@@ -79,7 +78,6 @@ new data.Bidding {
 			priority = "low"
 		}
 	]
-	report = new data.Report {}
 	decision = new data.Decision {
 		state = "rejected"
 	}

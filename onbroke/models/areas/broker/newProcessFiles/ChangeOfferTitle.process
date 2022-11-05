@@ -1,0 +1,124 @@
+Process _EwUocVulEe29gfndd4k6uw {
+  modelName "ChangeOfferTitle"
+  description "ChangeOfferTitle"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  SetAttributeValueSIB _Lju18VulEe29gfndd4k6uw at 326,166 size 120,108 {
+  	libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  	label "Set title"
+  	ignoredBranch [  ]
+  	ComplexInputPort _Lju191ulEe29gfndd4k6uw at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	
+  	PrimitiveInputPort _Lju1-lulEe29gfndd4k6uw at 5,85 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "title"
+  	}
+  	-BranchConnector-> _Lj0VgVulEe29gfndd4k6uw   {
+  		id _Lj7DNlulEe29gfndd4k6uw
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _Ljx5QVulEe29gfndd4k6uw at 346,499 size 100,65 {
+  	branchName "success"
+  }
+  
+  Branch _Lj0VgVulEe29gfndd4k6uw at 326,339 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _Ljx5QVulEe29gfndd4k6uw  decorate "" at (0,0) {
+  		id _Lj7DOVulEe29gfndd4k6uw
+  		concurrent true
+  	}
+  }
+  
+  DataContext _Lj4m8VulEe29gfndd4k6uw at 36,19 size 210,402 {
+  	dfViewWorkaround true
+  	ComplexVariable _Lj0ViFulEe29gfndd4k6uw at 10,105 size 190,267 {
+  		expanded true
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		name "offer"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _Lj08nVulEe29gfndd4k6uw at 10,239 size 170,25 {
+  			libraryComponentUID "_STTrkVFNEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _Lj08oFulEe29gfndd4k6uw at 10,50 size 170,25 {
+  			libraryComponentUID "_xZISQVGIEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _Lj08o1ulEe29gfndd4k6uw at 10,158 size 170,25 {
+  			libraryComponentUID "_mFmoEVMTEe2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _Lj08plulEe29gfndd4k6uw at 10,104 size 170,25 {
+  			libraryComponentUID "_txofoVMTEe2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _Lj08qVulEe29gfndd4k6uw at 10,185 size 170,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _Lj08rFulEe29gfndd4k6uw at 10,77 size 170,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _Lj08r1ulEe29gfndd4k6uw at 10,131 size 170,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _Lj08slulEe29gfndd4k6uw at 10,212 size 170,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveExtensionAttribute _Lj08tVulEe29gfndd4k6uw at 10,23 size 170,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			dfViewWorkaround true
+  		}
+  		-ComplexRead-> _Lju191ulEe29gfndd4k6uw  decorate "" at (0,0) {
+  			id _Lj0VhlulEe29gfndd4k6uw
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _Lj5OA1ulEe29gfndd4k6uw at 346,19 size 100,108 {
+  	ComplexOutputPort _Lj5OCVulEe29gfndd4k6uw at 5,67 size 90,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  		-ComplexUpdate-> _Lj0ViFulEe29gfndd4k6uw  decorate "" at (0,0) {
+  			id _Lj7DMlulEe29gfndd4k6uw
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	PrimitiveOutputPort _Lj5ODFulEe29gfndd4k6uw at 5,85 size 90,18 {
+  		dataType Text
+  		isList false
+  		name "title"
+  		-PrimitiveDirectDataFlow-> _Lju1-lulEe29gfndd4k6uw via (300,114) (300,261) decorate "" at (0,0) {
+  			id _Lj6cJ1ulEe29gfndd4k6uw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _Lju18VulEe29gfndd4k6uw  decorate "" at (0,0) {
+  		id _Lj5OAVulEe29gfndd4k6uw
+  		concurrent true
+  	}
+  }
+}
