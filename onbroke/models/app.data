@@ -211,8 +211,30 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _eC67EVFSEe2J0bu3ffrh5w at 1009,62 size 140,30 {
+  ConcreteType _eC67EVFSEe2J0bu3ffrh5w at 1000,24 size 140,91 {
   	name "Report"
+  	PrimitiveAttribute _YgsgoVtuEe2QA7_hT735xw at 5,68 size 130,18 {
+  		dataType Text
+  		name "name"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _lJLEEVtuEe2QA7_hT735xw at 5,50 size 130,18 {
+  		dataType _BtX2cVGBEe2J0bu3ffrh5w
+  		name "decision"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _q4fsYVw0Ee2kv9c-foxC6A at 5,32 size 130,18 {
+  		dataType Text
+  		name "comment"
+  		isList false
+  	}
+  	-Association-> _BtX2cVGBEe2J0bu3ffrh5w via (1170,107) (1170,405) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _lI9BoFtuEe2QA7_hT735xw
+  		isHidden false
+  		sourceAttr _lJLEEVtuEe2QA7_hT735xw
+  	}
   }
   
   EnumType _lmR-0VFSEe2J0bu3ffrh5w at 1023,472 size 112,73 {

@@ -127,9 +127,13 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
   		isList false
   		name "report"
+  		-ComplexDirectDataFlow-> _RiRn0VwwEe2kv9c-foxC6A via (980,556) (980,707) decorate "" at (0,0) {
+  			id _TZF_gVwwEe2kv9c-foxC6A
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1048,648) (1129,649) (1130,393) decorate "" at (0,0) {
-  		id _WHF1sVGOEe2J0bu3ffrh5w
+  	-ControlFlow-> _RhztwVwwEe2kv9c-foxC6A  decorate "" at (0,0) {
+  		id _SP7_EFwwEe2kv9c-foxC6A
   		concurrent true
   	}
   }
@@ -243,9 +247,13 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"
+  		-ComplexDirectDataFlow-> _yOuUQVxOEe2Wl51y_1NWqQ via (1609,556) (1609,904) decorate "" at (0,0) {
+  			id _L8qIQV9TEe2fAfsVuNKCdw
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1728,648) (1809,649) (1810,162) decorate "" at (0,0) {
-  		id _nz3ZcVGOEe2J0bu3ffrh5w
+  	-ControlFlow-> _p9Bj0VxOEe2Wl51y_1NWqQ  decorate "" at (0,0) {
+  		id _rXU-oVxOEe2Wl51y_1NWqQ
   		concurrent true
   	}
   }
@@ -367,6 +375,107 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	name "back"
   	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (620,732) (620,393) decorate "" at (0,0) {
   		id _PhkQoVOmEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _RhztwVwwEe2kv9c-foxC6A at 990,631 size 120,90 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_z2WfoVttEe2QA7_hT735xw"
+  	name "EditReport"
+  	label "EditReport"
+  	ignoredBranch [  ]
+  	ComplexInputPort _RiRn0VwwEe2kv9c-foxC6A at 5,67 size 110,18 {
+  		libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
+  		isList false
+  		name "report"
+  	}
+  	-BranchConnector-> _RikiwVwwEe2kv9c-foxC6A   {
+  		id _Rilw4VwwEe2kv9c-foxC6A
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _VFqVYVw4Ee2Wl51y_1NWqQ   {
+  		id _VFsxoVw4Ee2Wl51y_1NWqQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _RikiwVwwEe2kv9c-foxC6A at 1126,810 size 120,50 {
+  	name "Confirm"
+  	ComplexOutputPort _m950MVw2Ee2Wl51y_1NWqQ at 5,27 size 110,18 {
+  		libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
+  		isList false
+  		name "report"
+  	}
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (180,835) (180,393) decorate "" at (0,0) {
+  		id _poi0QV9REe2fAfsVuNKCdw
+  		concurrent true
+  	}
+  }
+  
+  Branch _VFqVYVw4Ee2Wl51y_1NWqQ at 950,777 size 120,25 {
+  	name "Back"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (180,789) (180,393) decorate "" at (0,0) {
+  		id _nYv74V9REe2fAfsVuNKCdw
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _p9Bj0VxOEe2Wl51y_1NWqQ at 1670,656 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_uHfHQVuMEe2fDrPr3UNYwQ"
+  	name "RevokeOffer"
+  	label "RevokeOffer"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _p9QNUVxOEe2Wl51y_1NWqQ   {
+  		id _p9RbcVxOEe2Wl51y_1NWqQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _p9W7AVxOEe2Wl51y_1NWqQ   {
+  		id _p9YwMVxOEe2Wl51y_1NWqQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _p9QNUVxOEe2Wl51y_1NWqQ at 1619,770 size 120,25 {
+  	name "Yes"
+  	-ControlFlow-> _yOmYcFxOEe2Wl51y_1NWqQ  decorate "" at (0,0) {
+  		id _zDMeIVxOEe2Wl51y_1NWqQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _p9W7AVxOEe2Wl51y_1NWqQ at 1772,770 size 120,25 {
+  	name "No"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1832,930) (250,930) decorate "" at (0,0) {
+  		id _7lhrkVxOEe2Wl51y_1NWqQ
+  		concurrent true
+  	}
+  }
+  
+  UnsetAttributeValueSIB _yOmYcFxOEe2Wl51y_1NWqQ at 1619,828 size 120,90 {
+  	libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  	label "Unset decision"
+  	ignoredBranch [  ]
+  	ComplexInputPort _yOuUQVxOEe2Wl51y_1NWqQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _yO56cVxOEe2Wl51y_1NWqQ   {
+  		id _yO89wVxOEe2Wl51y_1NWqQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _yO56cVxOEe2Wl51y_1NWqQ at 1420,860 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (180,872) (180,393) decorate "" at (0,0) {
+  		id _JvkXAF3REe2j-sBap4_vPg
   		concurrent true
   	}
   }
