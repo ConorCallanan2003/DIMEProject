@@ -211,8 +211,24 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _eC67EVFSEe2J0bu3ffrh5w at 1009,62 size 140,30 {
+  ConcreteType _eC67EVFSEe2J0bu3ffrh5w at 1009,62 size 140,73 {
   	name "Report"
+  	PrimitiveAttribute _SbDtIVw0Ee2b9OjRbNdgBw at 5,32 size 130,18 {
+  		dataType Text
+  		name "Name"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _7ghOkVw0Ee2b9OjRbNdgBw at 5,50 size 130,18 {
+  		dataType _uaBIIVN9Ee2KQc5QIsW97w
+  		name "comment"
+  		isList false
+  	}
+  	-Association-> _uaBIIVN9Ee2KQc5QIsW97w  decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _7gZ50Fw0Ee2b9OjRbNdgBw
+  		isHidden false
+  		sourceAttr _7ghOkVw0Ee2b9OjRbNdgBw
+  	}
   }
   
   EnumType _lmR-0VFSEe2J0bu3ffrh5w at 1023,472 size 112,73 {
