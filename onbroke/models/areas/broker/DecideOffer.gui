@@ -1,0 +1,196 @@
+GUI _2p2NEVuQEe2fDrPr3UNYwQ {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "DecideOffer"
+  DataContext _2p3bMVuQEe2fDrPr3UNYwQ at 10,10 size 180,130 {
+  	dfViewWorkaround true
+  }
+  
+  Template _2p4CQVuQEe2fDrPr3UNYwQ at 240,10 size 500,350 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _2p6egFuQEe2fDrPr3UNYwQ {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _2p6egluQEe2fDrPr3UNYwQ at 10,150 size 480,170 {
+  		generalStyle GeneralStyling _2p-I4FuQEe2fDrPr3UNYwQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _2p7FkVuQEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _2p7soVuQEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  		}
+  		
+  		Col _2p8TsVuQEe2fDrPr3UNYwQ at 10,30 size 220,120 {
+  			wideness Full
+  			layout Layout _2p9h0VuQEe2fDrPr3UNYwQ {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _2p9h0FuQEe2fDrPr3UNYwQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _2p8Ts1uQEe2fDrPr3UNYwQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _2p8TtVuQEe2fDrPr3UNYwQ at 10,2 size 7,14 {
+  			}
+  			
+  			Button _Du-eAVuWEe26ac_wto9MPg at 10,30 size 200,60 {
+  				label "Approve"
+  				styling ButtonStyling _DvNHgFuWEe26ac_wto9MPg {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Green
+  					}
+  				options ButtonOptions _DvPjwFuWEe26ac_wto9MPg {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _DvFLsFuWEe26ac_wto9MPg {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _DvD9kFuWEe26ac_wto9MPg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _DvCIYVuWEe26ac_wto9MPg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _DvCvcVuWEe26ac_wto9MPg at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		Col _CM-fwFuWEe26ac_wto9MPg at 240,30 size 220,120 {
+  			wideness Full
+  			layout Layout _CNHCoFuWEe26ac_wto9MPg {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _CND_UFuWEe26ac_wto9MPg {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _CNBjEVuWEe26ac_wto9MPg at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _CNCKIVuWEe26ac_wto9MPg at 10,2 size 7,14 {
+  			}
+  			
+  			Button _EIme8VuWEe26ac_wto9MPg at 10,30 size 200,60 {
+  				label "Reject"
+  				styling ButtonStyling _EIz6UFuWEe26ac_wto9MPg {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Red
+  					}
+  				options ButtonOptions _EI2WkFuWEe26ac_wto9MPg {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _EIslkFuWEe26ac_wto9MPg {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _EIpiQFuWEe26ac_wto9MPg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _EIoUIVuWEe26ac_wto9MPg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _EIo7MVuWEe26ac_wto9MPg at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	Headline _6umpsVuVEe26ac_wto9MPg at 10,30 size 300,50 {
+  		size Big
+  		content [ StaticContent _6uxBwFuVEe26ac_wto9MPg {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "OnBroker- Decide Offer\n"
+  				styling TextStyling _6uyP4FuVEe26ac_wto9MPg {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _6uwasFuVEe26ac_wto9MPg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _6ut-cVuVEe26ac_wto9MPg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _6ut-c1uVEe26ac_wto9MPg at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Headline _AuMNkVuWEe26ac_wto9MPg at 10,90 size 300,50 {
+  		size Big
+  		content [ StaticContent _AuRtIFuWEe26ac_wto9MPg {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Please Deceide...."
+  				styling TextStyling _AuRtIVuWEe26ac_wto9MPg {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _AuRGEFuWEe26ac_wto9MPg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _AuQfAVuWEe26ac_wto9MPg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _AuQfA1uWEe26ac_wto9MPg at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

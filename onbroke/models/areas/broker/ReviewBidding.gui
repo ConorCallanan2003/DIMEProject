@@ -1,0 +1,54 @@
+GUI _VbL98VrOEe25OucE5pKZ7w {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "ReviewBidding"
+  DataContext _VbSEkFrOEe25OucE5pKZ7w at 10,10 size 180,130 {
+  	dfViewWorkaround true
+  }
+  
+  Template _VbUg0VrOEe25OucE5pKZ7w at 240,10 size 150,190 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _VbancFrOEe25OucE5pKZ7w {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _VbgHAVrOEe25OucE5pKZ7w at 10,30 size 130,130 {
+  		generalStyle GeneralStyling _VcBrcFrOEe25OucE5pKZ7w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _VbnbwVrOEe25OucE5pKZ7w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _VbpQ8VrOEe25OucE5pKZ7w at 2,10 size 14,7 {
+  		}
+  		
+  		Col _Vbya4FrOEe25OucE5pKZ7w at 10,30 size 100,80 {
+  			wideness Full
+  			layout Layout _VcAdUFrOEe25OucE5pKZ7w {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _Vb_PMFrOEe25OucE5pKZ7w {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _Vb2FQVrOEe25OucE5pKZ7w at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _Vb5IkVrOEe25OucE5pKZ7w at 10,2 size 7,14 {
+  			}
+  		}
+  	}
+  }
+}

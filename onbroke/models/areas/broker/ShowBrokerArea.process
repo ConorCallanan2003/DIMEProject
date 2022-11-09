@@ -114,9 +114,13 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"
+  		-ComplexDirectDataFlow-> _wmH30VvXEe2wOvMah9wAGg via (1320,556) (1320,762) decorate "" at (0,0) {
+  			id _zJqLkVvXEe2wOvMah9wAGg
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1388,648) (1469,649) (1470,162) decorate "" at (0,0) {
-  		id _gel1AVGOEe2J0bu3ffrh5w
+  	-ControlFlow-> _wliB8VvXEe2wOvMah9wAGg  decorate "" at (0,0) {
+  		id _yCuYsFvXEe2wOvMah9wAGg
   		concurrent true
   	}
   }
@@ -243,9 +247,13 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"
+  		-ComplexDirectDataFlow-> _Xw6hUVuhEe2wOvMah9wAGg via (1660,556) (1660,846) decorate "" at (0,0) {
+  			id _GU85YFukEe2wOvMah9wAGg
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1728,648) (1809,649) (1810,162) decorate "" at (0,0) {
-  		id _nz3ZcVGOEe2J0bu3ffrh5w
+  	-ControlFlow-> _O-ib0VuYEe26ac_wto9MPg  decorate "" at (0,0) {
+  		id _RGXD8VuYEe26ac_wto9MPg
   		concurrent true
   	}
   }
@@ -282,9 +290,13 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
+  		-ComplexDirectDataFlow-> _F8w-sVurEe2wOvMah9wAGg via (1490,556) (1490,918) decorate "" at (0,0) {
+  			id _h7DKgFvXEe2wOvMah9wAGg
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1560,648) (1640,649) (1640,393) decorate "" at (0,0) {
-  		id _jiV54VGOEe2J0bu3ffrh5w
+  	-ControlFlow-> __yXR8VuqEe2wOvMah9wAGg  decorate "" at (0,0) {
+  		id _54r6QVvVEe2wOvMah9wAGg
   		concurrent true
   	}
   }
@@ -367,6 +379,143 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	name "back"
   	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (620,732) (620,393) decorate "" at (0,0) {
   		id _PhkQoVOmEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _O-ib0VuYEe26ac_wto9MPg at 1660,635 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_uHfHQVuMEe2fDrPr3UNYwQ"
+  	name "RevokeOffer"
+  	label "RevokeOffer"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _O-zhkVuYEe26ac_wto9MPg   {
+  		id _O-1WwVuYEe26ac_wto9MPg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _O-8EcVuYEe26ac_wto9MPg   {
+  		id _O--gsVuYEe26ac_wto9MPg
+  		concurrent true
+  	}
+  }
+  
+  Branch _O-zhkVuYEe26ac_wto9MPg at 1650,730 size 120,25 {
+  	name "Yes"
+  	-ControlFlow-> _XwLhgFuhEe2wOvMah9wAGg  decorate "" at (0,0) {
+  		id _LJveEVukEe2wOvMah9wAGg
+  		concurrent true
+  	}
+  }
+  
+  Branch _O-8EcVuYEe26ac_wto9MPg at 1820,754 size 120,25 {
+  	name "No"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1880,490) (250,490) decorate "" at (0,0) {
+  		id _e52B8VuYEe26ac_wto9MPg
+  		concurrent true
+  	}
+  }
+  
+  UnsetAttributeValueSIB _XwLhgFuhEe2wOvMah9wAGg at 1680,770 size 120,90 {
+  	libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  	label "Unset decision"
+  	ignoredBranch [  ]
+  	ComplexInputPort _Xw6hUVuhEe2wOvMah9wAGg at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _Xx28gVuhEe2wOvMah9wAGg   {
+  		id _XyCisVuhEe2wOvMah9wAGg
+  		concurrent true
+  	}
+  }
+  
+  Branch _Xx28gVuhEe2wOvMah9wAGg at 1660,920 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _v2UU4Vu-Ee2wOvMah9wAGg
+  		concurrent true
+  	}
+  }
+  
+  GUISIB __yXR8VuqEe2wOvMah9wAGg at 1510,640 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_uHfHQVuMEe2fDrPr3UNYwQ"
+  	name "RevokeOffer"
+  	label "RevokeOffer"
+  	ignoredBranch [  ]
+  	-BranchConnector-> __zR38VuqEe2wOvMah9wAGg   {
+  		id __zZMsVuqEe2wOvMah9wAGg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> __01-MVuqEe2wOvMah9wAGg   {
+  		id __062sVuqEe2wOvMah9wAGg
+  		concurrent true
+  	}
+  }
+  
+  Branch __zR38VuqEe2wOvMah9wAGg at 1500,778 size 120,25 {
+  	name "Yes"
+  	-ControlFlow-> _F8YkMVurEe2wOvMah9wAGg  decorate "" at (0,0) {
+  		id _KS54gVurEe2wOvMah9wAGg
+  		concurrent true
+  	}
+  }
+  
+  Branch __01-MVuqEe2wOvMah9wAGg at 1561,754 size 120,25 {
+  	name "No"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _Hco2AVurEe2wOvMah9wAGg
+  		concurrent true
+  	}
+  }
+  
+  UnsetAttributeValueSIB _F8YkMVurEe2wOvMah9wAGg at 1541,842 size 120,90 {
+  	libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  	label "Unset decision"
+  	ignoredBranch [  ]
+  	ComplexInputPort _F8w-sVurEe2wOvMah9wAGg at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _F9CrgVurEe2wOvMah9wAGg   {
+  		id _F9JZMVurEe2wOvMah9wAGg
+  		concurrent true
+  	}
+  }
+  
+  Branch _F9CrgVurEe2wOvMah9wAGg at 1541,942 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _IAABwVurEe2wOvMah9wAGg
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _wliB8VvXEe2wOvMah9wAGg at 1370,686 size 120,90 {
+  	libraryComponentUID "_vJXNcVusEe2wOvMah9wAGg"
+  	label "ApprovingOffer"
+  	ignoredBranch [  ]
+  	ComplexInputPort _wmH30VvXEe2wOvMah9wAGg at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> _wm0bYVvXEe2wOvMah9wAGg   {
+  		id _wnkpUVvXEe2wOvMah9wAGg
+  		concurrent true
+  	}
+  }
+  
+  Branch _wm0bYVvXEe2wOvMah9wAGg at 1370,786 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _2H8hoVvXEe2wOvMah9wAGg
   		concurrent true
   	}
   }
