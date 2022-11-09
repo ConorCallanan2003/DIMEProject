@@ -14,7 +14,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   		name "offers"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _iE_AgVGNEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _CYB8AWAyEe2XfODkm5EOQQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _BVmEEVGLEe2J0bu3ffrh5w
   		}
   	}
@@ -40,13 +40,13 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   		name "biddings"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _iFIKcVGNEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _CYFmYGAyEe2XfODkm5EOQQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _DkgLoVGLEe2J0bu3ffrh5w
   		}
   	}
   }
   
-  Template _dCc5YVFOEe2J0bu3ffrh5w at 300,10 size 520,1000 {
+  Template _dCc5YVFOEe2J0bu3ffrh5w at 300,10 size 520,1068 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _dCeHgFFOEe2J0bu3ffrh5w {
@@ -55,7 +55,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			attributes [  ]
   			marginTop None
   		}
-  	Tabbing _hg-g4FFTEe2J0bu3ffrh5w at 10,30 size 500,940 {
+  	Tabbing _hg-g4FFTEe2J0bu3ffrh5w at 10,30 size 500,1008 {
   		justified false
   		tabtype Tab
   		generalStyle GeneralStyling _hhW7YFFTEe2J0bu3ffrh5w {
@@ -70,7 +70,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   		MoveDown _hhCyUVFTEe2J0bu3ffrh5w at 2,10 size 14,7 {
   		}
   		
-  		Tab _hhQ0wFFTEe2J0bu3ffrh5w at 10,30 size 220,890 {
+  		Tab _hhQ0wFFTEe2J0bu3ffrh5w at 10,30 size 220,958 {
   			default true
   			label "Approval"
   			generalStyle GeneralStyling _hhVtQFFTEe2J0bu3ffrh5w {
@@ -85,7 +85,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   			MoveRight _hhVGMVFTEe2J0bu3ffrh5w at 10,2 size 7,14 {
   			}
   			
-  			Row _KhwKAVItEe2FSMa3sLmgcg at 10,30 size 200,830 {
+  			Row _KhwKAVItEe2FSMa3sLmgcg at 10,30 size 200,898 {
   				generalStyle GeneralStyling _KiAosFItEe2FSMa3sLmgcg {
   						tallness Fitting
   						marginBottom Single
@@ -98,7 +98,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   				MoveDown _Kh23sVItEe2FSMa3sLmgcg at 2,10 size 14,7 {
   				}
   				
-  				Col _Kh6iEFItEe2FSMa3sLmgcg at 10,30 size 170,780 {
+  				Col _Kh6iEFItEe2FSMa3sLmgcg at 10,30 size 170,848 {
   					wideness Full
   					layout Layout _KiABoVItEe2FSMa3sLmgcg {
   							size Default
@@ -117,7 +117,7 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   					MoveRight _Kh9lYVItEe2FSMa3sLmgcg at 10,2 size 7,14 {
   					}
   					
-  					GUISIB _iEvI4FGNEe2J0bu3ffrh5w at 10,30 size 150,720 {
+  					GUISIB _CX3j8WAyEe2XfODkm5EOQQ at 10,30 size 150,788 {
   						libraryComponentUID "_sK8JMVFTEe2J0bu3ffrh5w"
   						label "BrokerApprovalTab"
   						generalStyle GeneralStyling _13ykAFGKEe2J0bu3ffrh5w {
@@ -126,103 +126,112 @@ GUI _dCbEMVFOEe2J0bu3ffrh5w {
   								attributes [  ]
   								marginTop None
   							}
-  						ComplexInputPort _iE_AgVGNEe2J0bu3ffrh5w at 5,67 size 90,18 {
+  						ComplexInputPort _CYB8AWAyEe2XfODkm5EOQQ at 5,67 size 90,18 {
   							libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   							isList true
   							name "offers"
   						}
   						
-  						ComplexInputPort _iFIKcVGNEe2J0bu3ffrh5w at 5,85 size 90,18 {
+  						ComplexInputPort _CYFmYGAyEe2XfODkm5EOQQ at 5,85 size 90,18 {
   							libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   							isList true
   							name "biddings"
   						}
   						
-  						Branch _iFPfMVGNEe2J0bu3ffrh5w at 5,108 size 100,50 {
+  						Branch _CYJ30WAyEe2XfODkm5EOQQ at 5,108 size 100,50 {
   							name "Show offer"
-  							ComplexOutputPort _iFTJkVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  							ComplexOutputPort _CYMUEWAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
   								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   								name "offer"
   								isList false
   							}
   						}
   						
-  						Branch _iFbFYVGNEe2J0bu3ffrh5w at 5,176 size 100,50 {
+  						Branch _CYOwUWAyEe2XfODkm5EOQQ at 5,176 size 100,50 {
   							name "Decide offer"
-  							ComplexOutputPort _iFfW0VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  							ComplexOutputPort _CYQlgWAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
   								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   								name "offer"
   								isList false
   							}
   						}
   						
-  						Branch _iFmEgVGNEe2J0bu3ffrh5w at 5,244 size 100,50 {
+  						Branch _CYVeAWAyEe2XfODkm5EOQQ at 5,244 size 100,50 {
   							name "Review offer"
-  							ComplexOutputPort _iFpu4VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  							ComplexOutputPort _CYXTMWAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
   								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   								name "offer"
   								isList false
   							}
   						}
   						
-  						Branch _iFxqsVGNEe2J0bu3ffrh5w at 5,312 size 100,50 {
-  							name "Edit report"
-  							ComplexOutputPort _iF2jMVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
-  								libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
-  								name "report"
+  						Branch _CYZvcWAyEe2XfODkm5EOQQ at 5,312 size 100,50 {
+  							name "Edit offer"
+  							ComplexOutputPort _CYcLsWAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
+  								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  								name "offer"
   								isList false
   							}
   						}
   						
-  						Branch _iF-fAVGNEe2J0bu3ffrh5w at 5,380 size 100,50 {
+  						Branch _CYfPAWAyEe2XfODkm5EOQQ at 5,380 size 100,50 {
   							name "Revoke offer"
-  							ComplexOutputPort _iGCwcVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  							ComplexOutputPort _CYhEMWAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
   								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   								name "offer"
   								isList false
   							}
   						}
   						
-  						Branch _iGL6YVGNEe2J0bu3ffrh5w at 5,448 size 100,50 {
+  						Branch _CYl8sWAyEe2XfODkm5EOQQ at 5,448 size 100,50 {
   							name "Show bidding"
-  							ComplexOutputPort _iGQy4VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  							ComplexOutputPort _CYnx4WAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
   								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   								name "bidding"
   								isList false
   							}
   						}
   						
-  						Branch _iGaj4VGNEe2J0bu3ffrh5w at 5,516 size 100,50 {
+  						Branch _CYq1MWAyEe2XfODkm5EOQQ at 5,516 size 100,50 {
   							name "Decide bidding"
-  							ComplexOutputPort _iGgDcVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  							ComplexOutputPort _CYsqYWAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
   								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   								name "bidding"
   								isList false
   							}
   						}
   						
-  						Branch _iGpNYVGNEe2J0bu3ffrh5w at 5,584 size 100,50 {
+  						Branch _CYxi4WAyEe2XfODkm5EOQQ at 5,584 size 100,50 {
   							name "Review bidding"
-  							ComplexOutputPort _iGus8VGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  							ComplexOutputPort _CYz_IWAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
   								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   								name "bidding"
   								isList false
   							}
   						}
   						
-  						Branch _iG5FAVGNEe2J0bu3ffrh5w at 5,652 size 100,50 {
+  						Branch _CY3CcWAyEe2XfODkm5EOQQ at 5,652 size 100,50 {
+  							name "Edit bidding"
+  							ComplexOutputPort _CY43oWAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
+  								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  								name "bidding"
+  								isList false
+  							}
+  						}
+  						
+  						Branch _CY-XMWAyEe2XfODkm5EOQQ at 5,720 size 100,50 {
   							name "Revoke bidding"
-  							ComplexOutputPort _iG-kkVGNEe2J0bu3ffrh5w at 5,27 size 90,18 {
+  							ComplexOutputPort _CZAzcWAyEe2XfODkm5EOQQ at 5,27 size 90,18 {
   								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   								name "bidding"
   								isList false
   							}
   						}
   						
-  						MoveUp _iHI8oVGNEe2J0bu3ffrh5w at 2,2 size 14,7 {
+  						MoveUp _CZEd0WAyEe2XfODkm5EOQQ at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _iHI8o1GNEe2J0bu3ffrh5w at 2,10 size 14,7 {
+  						MoveDown _CZEd02AyEe2XfODkm5EOQQ at 2,10 size 14,7 {
   						}
   					}
   				}

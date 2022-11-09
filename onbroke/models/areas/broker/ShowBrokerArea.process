@@ -45,22 +45,17 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		concurrent true
   	}
   	
-  	-BranchConnector-> _KwFBgVGLEe2J0bu3ffrh5w via (250,500) (1050,500)  {
-  		id _KwFokVGLEe2J0bu3ffrh5w
-  		concurrent true
-  	}
-  	
   	-BranchConnector-> _KwZKkVGLEe2J0bu3ffrh5w via (250,500) (369,500)  {
   		id _KwZxoVGLEe2J0bu3ffrh5w
   		concurrent true
   	}
   	
-  	-BranchConnector-> _Kwi7kVGLEe2J0bu3ffrh5w via (250,500) (1900,500)  {
+  	-BranchConnector-> _Kwi7kVGLEe2J0bu3ffrh5w via (250,500) (2052,500)  {
   		id _KwjioVGLEe2J0bu3ffrh5w
   		concurrent true
   	}
   	
-  	-BranchConnector-> _Kwt6sVGLEe2J0bu3ffrh5w via (250,500) (2070,500)  {
+  	-BranchConnector-> _Kwt6sVGLEe2J0bu3ffrh5w via (250,500) (2249,500)  {
   		id _KwuhwVGLEe2J0bu3ffrh5w
   		concurrent true
   	}
@@ -87,6 +82,16 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	
   	-BranchConnector-> _kpeWgVGNEe2J0bu3ffrh5w via (250,500) (1560,500)  {
   		id _kpe9kVGNEe2J0bu3ffrh5w
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _ExJIcWAyEe2XfODkm5EOQQ via (250,500) (1050,500)  {
+  		id _ExJvgWAyEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _Eyz8YGAyEe2XfODkm5EOQQ via (250,500) (1890,500)  {
+  		id _Ey0jcWAyEe2XfODkm5EOQQ
   		concurrent true
   	}
   }
@@ -125,28 +130,6 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch _KwFBgVGLEe2J0bu3ffrh5w at 990,520 size 120,50 {
-  	name "Edit report"
-  	ComplexOutputPort _KwIE0VGLEe2J0bu3ffrh5w at 5,27 size 110,18 {
-  		libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
-  		isList false
-  		name "report"
-  		-ComplexDirectDataFlow-> _DmJVEVw5Ee2rVofov6xIxA via (980,556) (980,686) decorate "" at (0,0) {
-  			id _GhtuUVw5Ee2rVofov6xIxA
-  			dfViewWorkaround true
-  		}
-  		
-  		-ComplexDirectDataFlow-> _IfTcYFw5Ee2rVofov6xIxA via (980,556) (980,993) decorate "" at (0,0) {
-  			id _cNx2cV0bEe25K9Bw89qhkQ
-  			dfViewWorkaround true
-  		}
-  	}
-  	-ControlFlow-> _DlvscVw5Ee2rVofov6xIxA  decorate "" at (0,0) {
-  		id _GL0W0Vw5Ee2rVofov6xIxA
-  		concurrent true
-  	}
-  }
-  
   Branch _KwZKkVGLEe2J0bu3ffrh5w at 309,520 size 120,50 {
   	name "Show bidding"
   	ComplexOutputPort _KwdcAVGLEe2J0bu3ffrh5w at 5,27 size 110,18 {
@@ -164,27 +147,27 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch _Kwi7kVGLEe2J0bu3ffrh5w at 1840,520 size 120,50 {
+  Branch _Kwi7kVGLEe2J0bu3ffrh5w at 1990,520 size 120,50 {
   	name "Assign"
   	ComplexOutputPort _KwnNAVGLEe2J0bu3ffrh5w at 5,27 size 110,18 {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
   	}
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1900,648) (1980,649) (1980,393) decorate "" at (0,0) {
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (2049,648) (2137,648) (2137,526) (2137,393) decorate "" at (0,0) {
   		id _tWXYsVGOEe2J0bu3ffrh5w
   		concurrent true
   	}
   }
   
-  Branch _Kwt6sVGLEe2J0bu3ffrh5w at 2010,520 size 120,50 {
+  Branch _Kwt6sVGLEe2J0bu3ffrh5w at 2190,520 size 120,50 {
   	name "Unassign"
   	ComplexOutputPort _KwyzMVGLEe2J0bu3ffrh5w at 5,27 size 110,18 {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
   	}
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (2069,648) (2149,648) (2150,393) decorate "" at (0,0) {
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (2249,648) (2337,648) (2337,393) decorate "" at (0,0) {
   		id _xfUyIVGOEe2J0bu3ffrh5w
   		concurrent true
   	}
@@ -265,13 +248,13 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"
-  		-ComplexDirectDataFlow-> _Lf3jIV0lEe25K9Bw89qhkQ via (1660,556) (1660,666) decorate "" at (0,0) {
-  			id _Uh_D4V0lEe25K9Bw89qhkQ
+  		-ComplexDirectDataFlow-> _6GvNgGAsEe2XfODkm5EOQQ via (1730,786) (1866,787) decorate "" at (0,0) {
+  			id _BiiQsWAtEe2XfODkm5EOQQ
   			dfViewWorkaround true
   		}
   	}
-  	-ControlFlow-> _LftLEV0lEe25K9Bw89qhkQ  decorate "" at (0,0) {
-  		id _UB6csV0lEe25K9Bw89qhkQ
+  	-ControlFlow-> _8UmMMWAsEe2XfODkm5EOQQ  decorate "" at (0,0) {
+  		id _89ibgWAsEe2XfODkm5EOQQ
   		concurrent true
   	}
   }
@@ -321,18 +304,18 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
-  		-ComplexDirectDataFlow-> __PTwcV0kEe25K9Bw89qhkQ via (1490,556) (1490,666) decorate "" at (0,0) {
-  			id _C9JUIV0lEe25K9Bw89qhkQ
+  		-ComplexDirectDataFlow-> _3IdegWAsEe2XfODkm5EOQQ via (1560,796) (1625,797) decorate "" at (0,0) {
+  			id _Aqz-gWAtEe2XfODkm5EOQQ
   			dfViewWorkaround true
   		}
   	}
-  	-ControlFlow-> __PA1gV0kEe25K9Bw89qhkQ  decorate "" at (0,0) {
-  		id _CmPQAV0lEe25K9Bw89qhkQ
+  	-ControlFlow-> _yUkRsGAsEe2XfODkm5EOQQ  decorate "" at (0,0) {
+  		id _zzjYMWAsEe2XfODkm5EOQQ
   		concurrent true
   	}
   }
   
-  Documentation _rPd9oVGOEe2J0bu3ffrh5w at 1840,580 size 52,40 {
+  Documentation _rPd9oVGOEe2J0bu3ffrh5w at 2240,580 size 52,40 {
   	content "TODO"
   }
   
@@ -403,7 +386,7 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		concurrent true
   	}
   	
-  	-BranchConnector-> _N0usIFw9Ee2rVofov6xIxA via (900,499)  {
+  	-BranchConnector-> _N0usIFw9Ee2rVofov6xIxA via (960,655) (960,342)  {
   		id _N0y9kVw9Ee2rVofov6xIxA
   		concurrent true
   	}
@@ -510,50 +493,30 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	name "EditReport"
   	label "EditReport"
   	ignoredBranch [  ]
-  	ComplexInputPort _DmJVEVw5Ee2rVofov6xIxA at 5,67 size 110,18 {
-  		libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
+  	ComplexInputPort _2aXFkWAwEe2XfODkm5EOQQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
   		isList false
-  		name "report"
+  		name "submission"
   	}
   	-BranchConnector-> _DmhIgVw5Ee2rVofov6xIxA   {
   		id _DmiWoVw5Ee2rVofov6xIxA
   		concurrent true
   	}
   	
-  	-BranchConnector-> _PMbe4Vw9Ee2rVofov6xIxA via (1030,501)  {
+  	-BranchConnector-> _PMbe4Vw9Ee2rVofov6xIxA via (1130,655) (1130,342)  {
   		id _PMctAVw9Ee2rVofov6xIxA
   		concurrent true
   	}
   }
   
-  Branch _DmhIgVw5Ee2rVofov6xIxA at 990,711 size 120,86 {
+  Branch _DmhIgVw5Ee2rVofov6xIxA at 990,711 size 120,50 {
   	name "Submit"
-  	PrimitiveOutputPort _DmrgkVw5Ee2rVofov6xIxA at 5,27 size 110,18 {
-  		dataType Text
+  	ComplexOutputPort _0T7OcWA5Ee2XfODkm5EOQQ at 5,27 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
   		isList false
-  		name "comments"
-  		-PrimitiveDirectDataFlow-> _IeGigVw5Ee2rVofov6xIxA via (980,747) (980,939) decorate "" at (0,0) {
-  			id _JT6wMVw5Ee2rVofov6xIxA
-  			dfViewWorkaround true
-  		}
-  	}
-  	
-  	PrimitiveOutputPort _DnGXUVw5Ee2rVofov6xIxA at 5,45 size 110,18 {
-  		dataType File
-  		isList false
-  		name "file"
-  		-PrimitiveDirectDataFlow-> _IegLIVw5Ee2rVofov6xIxA via (980,765) (980,957) decorate "" at (0,0) {
-  			id _KUCJYFw5Ee2rVofov6xIxA
-  			dfViewWorkaround true
-  		}
-  	}
-  	
-  	PrimitiveOutputPort _DnnUsVw5Ee2rVofov6xIxA at 5,63 size 110,18 {
-  		dataType Text
-  		isList false
-  		name "name"
-  		-PrimitiveDirectDataFlow-> _Ie5zwVw5Ee2rVofov6xIxA via (980,783) (980,975) decorate "" at (0,0) {
-  			id _KtdWAVw5Ee2rVofov6xIxA
+  		name "submission"
+  		-ComplexDirectDataFlow-> _Lxd7IWAzEe2XfODkm5EOQQ via (980,747) (980,939) decorate "" at (0,0) {
+  			id _1ur8QWA5Ee2XfODkm5EOQQ
   			dfViewWorkaround true
   		}
   	}
@@ -563,32 +526,14 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	}
   }
   
-  ProcessSIB _Idv9MVw5Ee2rVofov6xIxA at 990,863 size 120,144 {
+  ProcessSIB _Idv9MVw5Ee2rVofov6xIxA at 990,863 size 120,90 {
   	libraryComponentUID "_rNwqYVw3Ee2rVofov6xIxA"
   	label "EditReport"
   	ignoredBranch [  ]
-  	PrimitiveInputPort _IeGigVw5Ee2rVofov6xIxA at 5,67 size 110,18 {
-  		dataType Text
+  	ComplexInputPort _Lxd7IWAzEe2XfODkm5EOQQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
   		isList false
-  		name "comments"
-  	}
-  	
-  	PrimitiveInputPort _IegLIVw5Ee2rVofov6xIxA at 5,85 size 110,18 {
-  		dataType File
-  		isList false
-  		name "file"
-  	}
-  	
-  	PrimitiveInputPort _Ie5zwVw5Ee2rVofov6xIxA at 5,103 size 110,18 {
-  		dataType Text
-  		isList false
-  		name "name"
-  	}
-  	
-  	ComplexInputPort _IfTcYFw5Ee2rVofov6xIxA at 5,121 size 110,18 {
-  		libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
-  		isList false
-  		name "report"
+  		name "submission"
   	}
   	-BranchConnector-> _IfpaoVw5Ee2rVofov6xIxA   {
   		id _IfrP0Vw5Ee2rVofov6xIxA
@@ -598,15 +543,15 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   
   Branch _IfpaoVw5Ee2rVofov6xIxA at 990,1050 size 120,25 {
   	name "success"
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1178,1012) (1178,393) decorate "" at (0,0) {
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1050,1110) (250,1110) decorate "" at (0,0) {
   		id _MXWE8Vw5Ee2rVofov6xIxA
   		concurrent true
   	}
   }
   
-  Branch _N0usIFw9Ee2rVofov6xIxA at 840,330 size 120,25 {
+  Branch _N0usIFw9Ee2rVofov6xIxA at 820,330 size 120,25 {
   	name "Back"
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (899,266) (515,266) (515,392) decorate "" at (0,0) {
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (880,266) (515,266) (515,392) decorate "" at (0,0) {
   		id _R3sLQVw9Ee2rVofov6xIxA
   		concurrent true
   	}
@@ -616,52 +561,6 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	name "Back"
   	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1029,295) (669,295) (669,393) decorate "" at (0,0) {
   		id _SzJt8Vw9Ee2rVofov6xIxA
-  		concurrent true
-  	}
-  }
-  
-  ProcessSIB __PA1gV0kEe25K9Bw89qhkQ at 1500,590 size 120,90 {
-  	libraryComponentUID "_1JiaUV0kEe25K9Bw89qhkQ"
-  	label "RevokeDecision"
-  	ignoredBranch [  ]
-  	ComplexInputPort __PTwcV0kEe25K9Bw89qhkQ at 5,67 size 110,18 {
-  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
-  		isList false
-  		name "submission"
-  	}
-  	-BranchConnector-> __PjoEV0kEe25K9Bw89qhkQ   {
-  		id __PldQV0kEe25K9Bw89qhkQ
-  		concurrent true
-  	}
-  }
-  
-  Branch __PjoEV0kEe25K9Bw89qhkQ at 1500,711 size 120,25 {
-  	name "success"
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1638,722) (1638,393) decorate "" at (0,0) {
-  		id _EFSA4V0lEe25K9Bw89qhkQ
-  		concurrent true
-  	}
-  }
-  
-  ProcessSIB _LftLEV0lEe25K9Bw89qhkQ at 1670,590 size 120,90 {
-  	libraryComponentUID "_1JiaUV0kEe25K9Bw89qhkQ"
-  	label "RevokeDecision"
-  	ignoredBranch [  ]
-  	ComplexInputPort _Lf3jIV0lEe25K9Bw89qhkQ at 5,67 size 110,18 {
-  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
-  		isList false
-  		name "submission"
-  	}
-  	-BranchConnector-> _LgHawV0lEe25K9Bw89qhkQ   {
-  		id _LgIB0V0lEe25K9Bw89qhkQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _LgHawV0lEe25K9Bw89qhkQ at 1670,711 size 120,25 {
-  	name "success"
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1819,727) (1819,392) decorate "" at (0,0) {
-  		id _VduTYV0lEe25K9Bw89qhkQ
   		concurrent true
   	}
   }
@@ -783,7 +682,7 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	}
   }
   
-  GUISIB _lVPjsV07Ee2cQsGArmUodA at 1169,600 size 101,90 index 40 {
+  GUISIB _lVPjsV07Ee2cQsGArmUodA at 1169,600 size 101,90 index 35 {
   	cacheGUI false
   	majorPage true
   	libraryComponentUID "_WAd-oF0mEe25K9Bw89qhkQ"
@@ -806,7 +705,7 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch _6ko-0V0pEe25K9Bw89qhkQ at 640,1074 size 120,25 index 39 {
+  Branch _6ko-0V0pEe25K9Bw89qhkQ at 640,1074 size 120,25 index 34 {
   	name "success"
   	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (248,1084) decorate "" at (0,0) {
   		id __-sMsV0pEe25K9Bw89qhkQ
@@ -914,16 +813,16 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		isList false
   		name "submission"
   	}
-  	-BranchConnector-> _2e4WcV1BEe2FwNgQQsfWvA   {
+  	-BranchConnector-> _2e4WcV1BEe2FwNgQQsfWvA via (1164,998) (1110,999)  {
   		id _2e5kkV1BEe2FwNgQQsfWvA
   		concurrent true
   	}
   }
   
-  Branch _2e4WcV1BEe2FwNgQQsfWvA at 1104,1130 size 120,25 {
+  Branch _2e4WcV1BEe2FwNgQQsfWvA at 1050,1124 size 120,25 {
   	name "success"
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w  decorate "" at (0,0) {
-  		id _BFK_sV1CEe2FwNgQQsfWvA
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1110,1210) (99,1210) (99,409) (99,161) decorate "" at (0,0) {
+  		id _avWzkWAvEe2XfODkm5EOQQ
   		concurrent true
   	}
   }
@@ -937,16 +836,16 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		isList false
   		name "submission"
   	}
-  	-BranchConnector-> _6NAOAV1BEe2FwNgQQsfWvA   {
+  	-BranchConnector-> _6NAOAV1BEe2FwNgQQsfWvA via (1269,998) (1256,999)  {
   		id _6NBcIV1BEe2FwNgQQsfWvA
   		concurrent true
   	}
   }
   
-  Branch _6NAOAV1BEe2FwNgQQsfWvA at 1210,1130 size 120,25 {
+  Branch _6NAOAV1BEe2FwNgQQsfWvA at 1196,1124 size 120,25 {
   	name "success"
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w  decorate "" at (0,0) {
-  		id _B5ZR8V1CEe2FwNgQQsfWvA
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1256,1200) (45,1200) (45,540) (45,162) decorate "" at (0,0) {
+  		id _WHyykWAvEe2XfODkm5EOQQ
   		concurrent true
   	}
   }
@@ -975,24 +874,247 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		isList false
   		name "submission"
   	}
-  	-BranchConnector-> _-vErBF1BEe2FwNgQQsfWvA   {
+  	-BranchConnector-> _-vErBF1BEe2FwNgQQsfWvA via (1489,998) (1520,998)  {
   		id _-vED9F1BEe2FwNgQQsfWvA
   		concurrent true
   	}
   }
   
-  Branch _-u66Al1BEe2FwNgQQsfWvA at 1324,1129 size 120,25 {
+  Branch _-u66Al1BEe2FwNgQQsfWvA at 1330,1124 size 120,25 {
   	name "success"
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w  decorate "" at (0,0) {
-  		id _DGYCcV1CEe2FwNgQQsfWvA
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1390,1190) (59,1190) (59,410) (59,162) decorate "" at (0,0) {
+  		id _Reg6UWAvEe2XfODkm5EOQQ
   		concurrent true
   	}
   }
   
-  Branch _-vErBF1BEe2FwNgQQsfWvA at 1430,1129 size 120,25 {
+  Branch _-vErBF1BEe2FwNgQQsfWvA at 1460,1124 size 120,25 {
   	name "success"
-  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w  decorate "" at (0,0) {
-  		id _E_e5IV1CEe2FwNgQQsfWvA
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1520,1160) (113,1160) (113,521) (113,163) decorate "" at (0,0) {
+  		id _HR8YoWAvEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  DataContext _GEIpEWAsEe2XfODkm5EOQQ at 992,1136 size 0,0 {
+  	dfViewWorkaround true
+  }
+  
+  GUISIB _yUkRsGAsEe2XfODkm5EOQQ at 1510,631 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_uHfHQVuMEe2fDrPr3UNYwQ"
+  	name "RevokeOffer"
+  	label "RevokeOffer"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _yVYKAWAsEe2XfODkm5EOQQ   {
+  		id _yVb0YWAsEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _yVpPwWAsEe2XfODkm5EOQQ   {
+  		id _yVrE8WAsEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _yVYKAWAsEe2XfODkm5EOQQ at 1565,839 size 120,25 {
+  	name "Yes"
+  	-ControlFlow-> _3ILxsGAsEe2XfODkm5EOQQ  decorate "" at (0,0) {
+  		id _92uGQWAsEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _yVpPwWAsEe2XfODkm5EOQQ at 1740,1160 size 120,25 {
+  	name "No"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (1800,1220) (250,1220) decorate "" at (0,0) {
+  		id _4sP6kWAuEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  UnsetAttributeValueSIB _3ILxsGAsEe2XfODkm5EOQQ at 1565,961 size 120,90 {
+  	libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  	label "Unset decision"
+  	ignoredBranch [  ]
+  	ComplexInputPort _3IdegWAsEe2XfODkm5EOQQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _3JCGQWAsEe2XfODkm5EOQQ   {
+  		id _3JPhoWAsEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _3JCGQWAsEe2XfODkm5EOQQ at 1611,1112 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1671,1180) (86,1180) (86,646) (86,162) decorate "" at (0,0) {
+  		id _D3j8cWAvEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  UnsetAttributeValueSIB _6GjnUWAsEe2XfODkm5EOQQ at 1806,941 size 120,90 {
+  	libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  	label "Unset decision"
+  	ignoredBranch [  ]
+  	ComplexInputPort _6GvNgGAsEe2XfODkm5EOQQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _6G_FIWAsEe2XfODkm5EOQQ   {
+  		id _6HEksWAsEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _6G_FIWAsEe2XfODkm5EOQQ at 1830,1112 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (1889,1170) (142,1170) (142,163) decorate "" at (0,0) {
+  		id _7MrP8WAuEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _8UmMMWAsEe2XfODkm5EOQQ at 1687,631 size 120,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_uHfHQVuMEe2fDrPr3UNYwQ"
+  	name "RevokeOffer"
+  	label "RevokeOffer"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _8U2q4WAsEe2XfODkm5EOQQ   {
+  		id _8U3R8WAsEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _8VEtUWAsEe2XfODkm5EOQQ   {
+  		id _8VF7cWAsEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _8U2q4WAsEe2XfODkm5EOQQ at 1740,815 size 120,25 {
+  	name "Yes"
+  	-ControlFlow-> _6GjnUWAsEe2XfODkm5EOQQ  decorate "" at (0,0) {
+  		id __ZwmUWAsEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _8VEtUWAsEe2XfODkm5EOQQ at 1959,1148 size 120,25 {
+  	name "No"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (2019,1230) (250,1230) decorate "" at (0,0) {
+  		id _ik8hsWAtEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _ExJIcWAyEe2XfODkm5EOQQ at 990,520 size 120,50 {
+  	name "Edit offer"
+  	ComplexOutputPort _ExP2IWAyEe2XfODkm5EOQQ at 5,27 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  		-ComplexDirectDataFlow-> _2aXFkWAwEe2XfODkm5EOQQ via (980,556) (980,686) decorate "" at (0,0) {
+  			id _HhWmQGAyEe2XfODkm5EOQQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _DlvscVw5Ee2rVofov6xIxA  decorate "" at (0,0) {
+  		id _HIvR8WAyEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _Eyz8YGAyEe2XfODkm5EOQQ at 1830,520 size 120,50 {
+  	name "Edit bidding"
+  	ComplexOutputPort _Ey74MWAyEe2XfODkm5EOQQ at 5,27 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  		-ComplexDirectDataFlow-> _b0E4kWAyEe2XfODkm5EOQQ via (1820,556) (1820,695) decorate "" at (0,0) {
+  			id _dREbAWAyEe2XfODkm5EOQQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _bz9j0GAyEe2XfODkm5EOQQ  decorate "" at (0,0) {
+  		id _vKa60WA1Ee2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _bz9j0GAyEe2XfODkm5EOQQ at 1840,619 size 120,90 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_Q_3BQFvCEe29gfndd4k6uw"
+  	name "EditReport"
+  	label "EditReport"
+  	ignoredBranch [  ]
+  	ComplexInputPort _b0E4kWAyEe2XfODkm5EOQQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _b0RF0WAyEe2XfODkm5EOQQ   {
+  		id _b0Rs4WAyEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _b1AFoWAyEe2XfODkm5EOQQ   {
+  		id _b1AssWAyEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _b0RF0WAyEe2XfODkm5EOQQ at 1880,748 size 120,50 {
+  	name "Submit"
+  	ComplexOutputPort _qt9ZwWA5Ee2XfODkm5EOQQ at 5,27 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  		-ComplexDirectDataFlow-> _KKUXIWAzEe2XfODkm5EOQQ via (1870,784) (1953,921) decorate "" at (0,0) {
+  			id _ry0wEWA5Ee2XfODkm5EOQQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _h6YIcWAyEe2XfODkm5EOQQ  decorate "" at (0,0) {
+  		id _l3h6gWAyEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _b1AFoWAyEe2XfODkm5EOQQ at 2135,695 size 120,25 {
+  	name "Back"
+  	-ControlFlow-> _fElJMVFOEe2J0bu3ffrh5w via (2195,1240) (250,1240) decorate "" at (0,0) {
+  		id _scs3sWAyEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _h6YIcWAyEe2XfODkm5EOQQ at 2016,899 size 120,90 {
+  	libraryComponentUID "_rNwqYVw3Ee2rVofov6xIxA"
+  	label "EditReport"
+  	ignoredBranch [  ]
+  	ComplexInputPort _KKUXIWAzEe2XfODkm5EOQQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _h7YOAWAyEe2XfODkm5EOQQ   {
+  		id _h7Y1EWAyEe2XfODkm5EOQQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _h7YOAWAyEe2XfODkm5EOQQ at 2016,1053 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _ffvSAVGMEe2J0bu3ffrh5w via (2076,1230) (250,1230) decorate "" at (0,0) {
+  		id _nA_c8WAyEe2XfODkm5EOQQ
   		concurrent true
   	}
   }

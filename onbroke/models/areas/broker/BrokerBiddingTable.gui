@@ -84,6 +84,10 @@ GUI _Ln-sIFGGEe2J0bu3ffrh5w {
   			id _Du7AwVIsEe2FSMa3sLmgcg
   			associationName "offer"
   		}
+  		
+  		-AddComplexToSubmission-> _X1hnFFGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _xc8T4WAxEe2XfODkm5EOQQ
+  		}
   	}
   	
   	ComplexVariable _dhjgUVGHEe2J0bu3ffrh5w at 730,20 size 201,61 {
@@ -129,11 +133,7 @@ GUI _Ln-sIFGGEe2J0bu3ffrh5w {
   			negate true
   		}
   		
-  		-AddComplexToSubmission-> _X1hnFFGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _KoB1kFGHEe2J0bu3ffrh5w
-  		}
-  		
-  		-IF-> _X1hnFFGGEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-IF-> _X1hnFFGGEe2J0bu3ffrh5w via (1431,238) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _KBO7UVGHEe2J0bu3ffrh5w
   			negate false
   		}
@@ -383,7 +383,7 @@ GUI _Ln-sIFGGEe2J0bu3ffrh5w {
   				
   				Button _X1hnFFGGEe2J0bu3ffrh5w at 430,30 size 200,60 {
   					displayLabel "Edit report"
-  					label "Edit report"
+  					label "Edit bidding"
   					styling ButtonStyling _X1hnG1GGEe2J0bu3ffrh5w {
   							fullWidth false
   							size Small

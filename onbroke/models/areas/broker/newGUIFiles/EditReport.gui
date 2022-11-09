@@ -4,82 +4,46 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "EditReport"
-  DataContext _XFiX4Vw3Ee2rVofov6xIxA at 38,37 size 180,525 {
+  DataContext _XFiX4Vw3Ee2rVofov6xIxA at 38,37 size 180,444 {
   	dfViewWorkaround true
-  	PrimitiveVariable _XFjmA1w3Ee2rVofov6xIxA at 20,360 size 140,25 {
-  		dataType Text
-  		isInput false
-  		name "comments"
-  		dfViewWorkaround true
-  		isList false
-  		-AddPrimitiveToSubmission-> _FE6j0V0jEe25K9Bw89qhkQ  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _JrgUcF0jEe25K9Bw89qhkQ
-  		}
-  		
-  		-FormSubmit-> _Qw_d3V1VEe27A4egrEGzLA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _WjmVgV1VEe27A4egrEGzLA
-  		}
-  	}
-  	
-  	PrimitiveVariable _XFjmBlw3Ee2rVofov6xIxA at 20,420 size 140,25 {
-  		dataType File
-  		isInput false
-  		name "file"
-  		dfViewWorkaround true
-  		isList false
-  		-AddPrimitiveToSubmission-> _FE6j0V0jEe25K9Bw89qhkQ  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _KDCDoV0jEe25K9Bw89qhkQ
-  		}
-  		
-  		-FormSubmit-> _QxAr3V1VEe27A4egrEGzLA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _Xg0ywV1VEe27A4egrEGzLA
-  		}
-  	}
-  	
-  	PrimitiveVariable _XFWxs1w3Ee2rVofov6xIxA at 20,470 size 140,25 {
-  		dataType Text
-  		isInput false
-  		name "name"
-  		dfViewWorkaround true
-  		isList false
-  		-AddPrimitiveToSubmission-> _FE6j0V0jEe25K9Bw89qhkQ  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _KznMAV0jEe25K9Bw89qhkQ
-  		}
-  		
-  		-FormSubmit-> _Qw_duF1VEe27A4egrEGzLA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _Yd4Q4V1VEe27A4egrEGzLA
-  		}
-  	}
-  	
-  	ComplexVariable _e3KhIVw3Ee2rVofov6xIxA at 10,83 size 160,105 {
+  	ComplexVariable _VWh4QWAwEe2XfODkm5EOQQ at 10,23 size 160,105 {
   		expanded true
   		isLive false
-  		libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
   		isInput true
-  		name "report"
+  		name "submission"
   		dfViewWorkaround true
   		isList false
-  		PrimitiveAttribute _19kfMFw7Ee2rVofov6xIxA at 10,23 size 140,25 {
-  			libraryComponentUID "_RZmlsFu8Ee29gfndd4k6uw"
+  		ComplexAttribute _Xm5_cWAwEe2XfODkm5EOQQ at 10,23 size 140,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _19lGQVw7Ee2rVofov6xIxA at 10,50 size 140,25 {
-  			libraryComponentUID "_aVgJsVu8Ee29gfndd4k6uw"
+  		PrimitiveAttribute _Xm9CwWAwEe2XfODkm5EOQQ at 10,50 size 140,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _19lGQ1w7Ee2rVofov6xIxA at 10,77 size 140,25 {
-  			libraryComponentUID "_3XV5gFvCEe29gfndd4k6uw"
+  		PrimitiveExtensionAttribute _Xm-38WAwEe2XfODkm5EOQQ at 10,77 size 140,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			isLive false
   		}
-  		-ComplexAttributeConnector-> _23iNEVw7Ee2rVofov6xIxA  decorate "Ellipse" at (0,0) {
-  			id _2371sVw7Ee2rVofov6xIxA
+  		-ComplexAttributeConnector-> _YsfHcWAwEe2XfODkm5EOQQ  decorate "Ellipse" at (0,0) {
+  			id _YsqtoWAwEe2XfODkm5EOQQ
   			associationName "decision"
+  		}
+  		
+  		-ComplexAttributeConnector-> _c9mXUWAwEe2XfODkm5EOQQ  decorate "Ellipse" at (0,0) {
+  			id _c9wvYWAwEe2XfODkm5EOQQ
+  			associationName "report"
+  		}
+  		
+  		-AddComplexToSubmission-> _FE6j0V0jEe25K9Bw89qhkQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _pe_FMWA5Ee2XfODkm5EOQQ
   		}
   	}
   	
-  	ComplexVariable _23iNEVw7Ee2rVofov6xIxA at 10,253 size 160,51 {
+  	ComplexVariable _YsfHcWAwEe2XfODkm5EOQQ at 10,363 size 160,51 {
   		expanded true
   		isLive false
   		libraryComponentUID "_BtX2cVGBEe2J0bu3ffrh5w"
@@ -87,11 +51,49 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   		name "decision"
   		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _24w8IFw7Ee2rVofov6xIxA at 10,23 size 140,25 {
+  		ComplexAttribute _YtLrAWAwEe2XfODkm5EOQQ at 10,23 size 140,25 {
   			libraryComponentUID "_FOudUVGBEe2J0bu3ffrh5w"
   			isLive false
   			-ComplexRead-> _Qw_d011VEe27A4egrEGzLA  decorate "" at (0,0) decorate "Text" at (0,0) {
-  				id _Vkb-kV1VEe27A4egrEGzLA
+  				id _aNu3wWAwEe2XfODkm5EOQQ
+  			}
+  		}
+  	}
+  	
+  	ComplexVariable _c9mXUWAwEe2XfODkm5EOQQ at 10,153 size 160,132 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_eC67EVFSEe2J0bu3ffrh5w"
+  		isInput false
+  		name "report"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _hLsIYWAwEe2XfODkm5EOQQ at 10,50 size 140,25 {
+  			libraryComponentUID "_CnNVsFw7Ee2rVofov6xIxA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _hLsvcWAwEe2XfODkm5EOQQ at 10,23 size 140,25 {
+  			libraryComponentUID "_RZmlsFu8Ee29gfndd4k6uw"
+  			isLive false
+  			-FormSubmit-> _Qw_d3V1VEe27A4egrEGzLA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _6Ela8WA4Ee2XfODkm5EOQQ
+  			}
+  		}
+  		
+  		PrimitiveAttribute _hLtWgWAwEe2XfODkm5EOQQ at 10,77 size 140,25 {
+  			libraryComponentUID "_aVgJsVu8Ee29gfndd4k6uw"
+  			isLive false
+  			-FormSubmit-> _QxAr3V1VEe27A4egrEGzLA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _6sCcgWA4Ee2XfODkm5EOQQ
+  			}
+  		}
+  		
+  		PrimitiveAttribute _hLt9kWAwEe2XfODkm5EOQQ at 10,104 size 140,25 {
+  			libraryComponentUID "_3XV5gFvCEe29gfndd4k6uw"
+  			isLive false
+  			-FormSubmit-> _Qw_duF1VEe27A4egrEGzLA  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _7U_58WA4Ee2XfODkm5EOQQ
   			}
   		}
   	}
@@ -144,7 +146,7 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   						renderMarkdown false
   						maxChars 0
   						html false
-  						rawContent "Edit Report: {{report.name}}"
+  						rawContent "Edit Report: {{submission.report.name}}"
   						styling TextStyling _XFvMPlw3Ee2rVofov6xIxA {
   								small false
   								highlight false
@@ -356,6 +358,7 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   								color Default
   							}
   						additionalOptions FormFieldAdditionalOptions _Qw_dv11VEe27A4egrEGzLA {
+  								emptyValue "{{submission.report.name}}"
   								readonly false
   							}
   						validation FormFieldValidation _Qw_dwF1VEe27A4egrEGzLA {
@@ -413,6 +416,7 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   								color Default
   							}
   						additionalOptions FormFieldAdditionalOptions _QxAr0l1VEe27A4egrEGzLA {
+  								emptyValue "{{submission.report.comments}}"
   								readonly false
   							}
   						validation FormFieldValidation _QxAr011VEe27A4egrEGzLA {
@@ -448,6 +452,7 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   								color Default
   							}
   						additionalOptions FormFieldAdditionalOptions _QxAr5F1VEe27A4egrEGzLA {
+  								emptyValue "{{submission.report.file}}"
   								readonly false
   							}
   						validation FormFieldValidation _QxAr5V1VEe27A4egrEGzLA {

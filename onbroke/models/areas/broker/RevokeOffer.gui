@@ -1,0 +1,196 @@
+GUI _uHfHQVuMEe2fDrPr3UNYwQ {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "RevokeOffer"
+  DataContext _uHr7kVuMEe2fDrPr3UNYwQ at 10,10 size 180,80 {
+  	dfViewWorkaround true
+  }
+  
+  Template _uHzQUVuMEe2fDrPr3UNYwQ at 240,10 size 500,350 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _uH5-AFuMEe2fDrPr3UNYwQ {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _uH7MIVuMEe2fDrPr3UNYwQ at 10,150 size 480,170 {
+  		generalStyle GeneralStyling _uIGyUFuMEe2fDrPr3UNYwQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _uH9oYVuMEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _uH-2gVuMEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  		}
+  		
+  		Col _uIB50VuMEe2fDrPr3UNYwQ at 10,30 size 220,120 {
+  			wideness Full
+  			layout Layout _uIGLQFuMEe2fDrPr3UNYwQ {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _uIE9IFuMEe2fDrPr3UNYwQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _uIDH8VuMEe2fDrPr3UNYwQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _uIDvAVuMEe2fDrPr3UNYwQ at 10,2 size 7,14 {
+  			}
+  			
+  			Button _HZvOoVuNEe2fDrPr3UNYwQ at 10,30 size 200,60 {
+  				label "Yes"
+  				styling ButtonStyling _HaQMAFuNEe2fDrPr3UNYwQ {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Red
+  					}
+  				options ButtonOptions _HaXgwFuNEe2fDrPr3UNYwQ {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _HZ_GQFuNEe2fDrPr3UNYwQ {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _HZ9REFuNEe2fDrPr3UNYwQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _HZ4_oVuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _HZ5msVuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		Col _eGIHAVuNEe2fDrPr3UNYwQ at 240,30 size 220,120 {
+  			wideness Full
+  			layout Layout _eGTtMFuNEe2fDrPr3UNYwQ {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _eGLKUFuNEe2fDrPr3UNYwQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _eGJVIVuNEe2fDrPr3UNYwQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _eGJ8MVuNEe2fDrPr3UNYwQ at 10,2 size 7,14 {
+  			}
+  			
+  			Button _ffyBkFuNEe2fDrPr3UNYwQ at 10,30 size 200,60 {
+  				label "No"
+  				styling ButtonStyling _fhJTgFuNEe2fDrPr3UNYwQ {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Yellow
+  					}
+  				options ButtonOptions _fheqsFuNEe2fDrPr3UNYwQ {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _fgRJwFuNEe2fDrPr3UNYwQ {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _ff-O0FuNEe2fDrPr3UNYwQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _ff59YVuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _ff7ykVuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  	
+  	Headline _04COAVuMEe2fDrPr3UNYwQ at 10,30 size 300,50 {
+  		size Big
+  		content [ StaticContent _04vYoFuMEe2fDrPr3UNYwQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "OnBroker- Revoke Offer\n"
+  				styling TextStyling _0480AFuMEe2fDrPr3UNYwQ {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _04eS4FuMEe2fDrPr3UNYwQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _04XlMVuMEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _04aBcVuMEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Headline _ksU-8VuNEe2fDrPr3UNYwQ at 10,90 size 300,50 {
+  		size Medium
+  		content [ StaticContent _ktA7cFuNEe2fDrPr3UNYwQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Are You Sure ?"
+  				styling TextStyling _ktBigFuNEe2fDrPr3UNYwQ {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _kshzQFuNEe2fDrPr3UNYwQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _ksdh0VuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _kseI4VuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}
