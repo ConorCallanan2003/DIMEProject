@@ -8,7 +8,7 @@ GUI _uHfHQVuMEe2fDrPr3UNYwQ {
   	dfViewWorkaround true
   }
   
-  Template _uHzQUVuMEe2fDrPr3UNYwQ at 240,10 size 500,350 {
+  Template _uHzQUVuMEe2fDrPr3UNYwQ at 240,10 size 510,490 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _uH5-AFuMEe2fDrPr3UNYwQ {
@@ -17,120 +17,6 @@ GUI _uHfHQVuMEe2fDrPr3UNYwQ {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _uH7MIVuMEe2fDrPr3UNYwQ at 10,150 size 480,170 {
-  		generalStyle GeneralStyling _uIGyUFuMEe2fDrPr3UNYwQ {
-  				tallness Fitting
-  				marginBottom None
-  				attributes [  ]
-  				marginTop None
-  			}
-  		MoveUp _uH9oYVuMEe2fDrPr3UNYwQ at 2,2 size 14,7 {
-  		}
-  		
-  		MoveDown _uH-2gVuMEe2fDrPr3UNYwQ at 2,10 size 14,7 {
-  		}
-  		
-  		Col _uIB50VuMEe2fDrPr3UNYwQ at 10,30 size 220,120 {
-  			wideness Full
-  			layout Layout _uIGLQFuMEe2fDrPr3UNYwQ {
-  					size Default
-  					offset None
-  					alignment Left
-  				}
-  			generalStyle GeneralStyling _uIE9IFuMEe2fDrPr3UNYwQ {
-  					tallness Fitting
-  					marginBottom None
-  					attributes [  ]
-  					marginTop None
-  				}
-  			MoveLeft _uIDH8VuMEe2fDrPr3UNYwQ at 2,2 size 7,14 {
-  			}
-  			
-  			MoveRight _uIDvAVuMEe2fDrPr3UNYwQ at 10,2 size 7,14 {
-  			}
-  			
-  			Button _HZvOoVuNEe2fDrPr3UNYwQ at 10,30 size 200,60 {
-  				label "Yes"
-  				styling ButtonStyling _HaQMAFuNEe2fDrPr3UNYwQ {
-  						fullWidth false
-  						size Default
-  						disabled false
-  						color Red
-  					}
-  				options ButtonOptions _HaXgwFuNEe2fDrPr3UNYwQ {
-  						isLink false
-  						submitsForm true
-  					}
-  				disabled false
-  				icon Icon _HZ_GQFuNEe2fDrPr3UNYwQ {
-  						postIcon None
-  						preIcon None
-  					}
-  				generalStyle GeneralStyling _HZ9REFuNEe2fDrPr3UNYwQ {
-  						tallness Fitting
-  						marginBottom None
-  						attributes [  ]
-  						marginTop None
-  					}
-  				MoveUp _HZ4_oVuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
-  				}
-  				
-  				MoveDown _HZ5msVuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
-  				}
-  			}
-  		}
-  		
-  		Col _eGIHAVuNEe2fDrPr3UNYwQ at 240,30 size 220,120 {
-  			wideness Full
-  			layout Layout _eGTtMFuNEe2fDrPr3UNYwQ {
-  					size Default
-  					offset None
-  					alignment Left
-  				}
-  			generalStyle GeneralStyling _eGLKUFuNEe2fDrPr3UNYwQ {
-  					tallness Fitting
-  					marginBottom None
-  					attributes [  ]
-  					marginTop None
-  				}
-  			MoveLeft _eGJVIVuNEe2fDrPr3UNYwQ at 2,2 size 7,14 {
-  			}
-  			
-  			MoveRight _eGJ8MVuNEe2fDrPr3UNYwQ at 10,2 size 7,14 {
-  			}
-  			
-  			Button _ffyBkFuNEe2fDrPr3UNYwQ at 10,30 size 200,60 {
-  				label "No"
-  				styling ButtonStyling _fhJTgFuNEe2fDrPr3UNYwQ {
-  						fullWidth false
-  						size Default
-  						disabled false
-  						color Yellow
-  					}
-  				options ButtonOptions _fheqsFuNEe2fDrPr3UNYwQ {
-  						isLink false
-  						submitsForm true
-  					}
-  				disabled false
-  				icon Icon _fgRJwFuNEe2fDrPr3UNYwQ {
-  						postIcon None
-  						preIcon None
-  					}
-  				generalStyle GeneralStyling _ff-O0FuNEe2fDrPr3UNYwQ {
-  						tallness Fitting
-  						marginBottom None
-  						attributes [  ]
-  						marginTop None
-  					}
-  				MoveUp _ff59YVuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
-  				}
-  				
-  				MoveDown _ff7ykVuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
-  				}
-  			}
-  		}
-  	}
-  	
   	Headline _04COAVuMEe2fDrPr3UNYwQ at 10,30 size 300,50 {
   		size Big
   		content [ StaticContent _04vYoFuMEe2fDrPr3UNYwQ {
@@ -190,6 +76,117 @@ GUI _uHfHQVuMEe2fDrPr3UNYwQ {
   		}
   		
   		MoveDown _kseI4VuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Panel _ZvmuEWDwEe25_IzInx8kXQ at 10,150 size 490,220 {
+  		collapsable false
+  		defaultOpen "true"
+  		coloring ComponentColoring _Zvup4GDwEe25_IzInx8kXQ {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _Zvq_gmDwEe25_IzInx8kXQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _ZvqYcWDwEe25_IzInx8kXQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _Zvq_gWDwEe25_IzInx8kXQ at 2,10 size 14,7 {
+  		}
+  		
+  		ButtonToolbar _XX6d8WDwEe25_IzInx8kXQ at 10,30 size 470,160 {
+  			role DEFAULT
+  			size Default
+  			generalStyle GeneralStyling _XYY_EGDwEe25_IzInx8kXQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _XX9hQWDwEe25_IzInx8kXQ at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _XX9hQ2DwEe25_IzInx8kXQ at 2,10 size 14,7 {
+  			}
+  			
+  			ButtonGroup _XX_9gWDwEe25_IzInx8kXQ at 10,30 size 440,110 {
+  				size Default
+  				alignment horizontal
+  				generalStyle GeneralStyling _XYVUsGDwEe25_IzInx8kXQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveLeft _XYBLoWDwEe25_IzInx8kXQ at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _XYBLo2DwEe25_IzInx8kXQ at 10,2 size 7,14 {
+  				}
+  				
+  				Button _HZvOoVuNEe2fDrPr3UNYwQ at 10,30 size 200,60 {
+  					label "Yes"
+  					styling ButtonStyling _HaQMAFuNEe2fDrPr3UNYwQ {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Red
+  						}
+  					options ButtonOptions _HaXgwFuNEe2fDrPr3UNYwQ {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _HZ_GQFuNEe2fDrPr3UNYwQ {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _HZ9REFuNEe2fDrPr3UNYwQ {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _HZ4_oVuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _HZ5msVuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _ffyBkFuNEe2fDrPr3UNYwQ at 220,30 size 200,60 {
+  					label "No"
+  					styling ButtonStyling _fhJTgFuNEe2fDrPr3UNYwQ {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Yellow
+  						}
+  					options ButtonOptions _fheqsFuNEe2fDrPr3UNYwQ {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _fgRJwFuNEe2fDrPr3UNYwQ {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _ff-O0FuNEe2fDrPr3UNYwQ {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _ff59YVuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _ff7ykVuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  					}
+  				}
+  			}
   		}
   	}
   }
